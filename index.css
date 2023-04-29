@@ -1,0 +1,66 @@
+/* Set global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Style the page header */
+  .page-header {
+    background: linear-gradient(45deg, #003366, #006699);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .page-header h1 {
+    font-size: 3rem;
+    margin: 0 0 10px;
+  }
+  .page-header p {
+    font-size: 1.2rem;
+  }
+  
+  /* Style the main sections */
+  section {
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    background: linear-gradient(180deg, #fff, #eee);
+  }
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  section p {
+    font-size: 1.1rem;
+    line-height: 1.4;
+  }
+  
+  /* Style the "Become a developer" section */
+  #become-a-dev {
+    background: linear-gradient(45deg, #eee, #fff);
+    text-align: center;
+  }
+  #become-a-dev h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  #become-a-dev p {
+    font-size: 1.2rem;
+  }
+  
+  /* Style the footer */
+  footer {
+    background: linear-gradient(45deg, #003366, #006699);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  footer p {
+    font-size: 1.1rem;
+  }
